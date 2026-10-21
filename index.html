@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transformer Math - turns ratio arithmetic</title>
+<style>
+  :root { --accent:#5b4636; --ink:#241a10; --paper:#f8f4ee; --soft:#eee5d8; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#8a7a64; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Transformer Math</h1>
+  <p class="lede">1150 turns against 60 turns is a 115:6 ratio, so 230 V in gives 12 V out. A 2 A draw on the secondary asks 0.1 A from the primary.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Transformer Math works out turns ratios, voltages and currents from the numbers you type. The turns, voltages and current are yours to measure or read off your own build. It treats every transformer as ideal, so it has not seen your build and does not know the core, the wire, the insulation, heat, losses or regulation, and it gives no verdict that a winding, a transformer or a supply is adequate or safe. Mains voltage can kill; every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 1150 turns against 60 at 230 V, a 2 A draw, and a 12 V target to wind for.</p>
+  <section>
+    <h2>The ratio truth</h2>
+    <p>With 1150 turns on the primary and 60 turns on the secondary, the ratio is 115:6. 230 V in gives 12 V out.</p>
+  </section>
+  <section>
+    <h2>The current truth</h2>
+    <p>A 2 A draw on the 12 V secondary asks 0.1 A from the 230 V primary. That is 24 W out and 24 W in.</p>
+  </section>
+  <section>
+    <h2>The turns truth</h2>
+    <p>For 12 V out from 230 V in with 1150 turns on the primary, wind 60 turns. That lands exactly on 12 V.</p>
+  </section>
+  <a class="btn" href="app.html">Wind your ratio</a>
+  <footer>Transformer Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>

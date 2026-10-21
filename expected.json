@@ -1,0 +1,1702 @@
+[
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "1",
+   "0.01"
+  ],
+  "expected": "With 1 turn on the primary and 1 turn on the secondary, the ratio is 1:1. 0.01 V in gives 0.01 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "1",
+   "5"
+  ],
+  "expected": "With 1 turn on the primary and 1 turn on the secondary, the ratio is 1:1. 5 V in gives 5 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "1",
+   "12"
+  ],
+  "expected": "With 1 turn on the primary and 1 turn on the secondary, the ratio is 1:1. 12 V in gives 12 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "1",
+   "230"
+  ],
+  "expected": "With 1 turn on the primary and 1 turn on the secondary, the ratio is 1:1. 230 V in gives 230 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "1",
+   "10000"
+  ],
+  "expected": "With 1 turn on the primary and 1 turn on the secondary, the ratio is 1:1. 10000 V in gives 10000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "60",
+   "0.01"
+  ],
+  "expected": "With 1 turn on the primary and 60 turns on the secondary, the ratio is 1:60. 0.01 V in gives 0.6 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "60",
+   "5"
+  ],
+  "expected": "With 1 turn on the primary and 60 turns on the secondary, the ratio is 1:60. 5 V in gives 300 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "60",
+   "12"
+  ],
+  "expected": "With 1 turn on the primary and 60 turns on the secondary, the ratio is 1:60. 12 V in gives 720 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "60",
+   "230"
+  ],
+  "expected": "With 1 turn on the primary and 60 turns on the secondary, the ratio is 1:60. 230 V in gives 13800 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "60",
+   "10000"
+  ],
+  "expected": "With 1 turn on the primary and 60 turns on the secondary, the ratio is 1:60. 10000 V in gives 600000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "1150",
+   "0.01"
+  ],
+  "expected": "With 1 turn on the primary and 1150 turns on the secondary, the ratio is 1:1150. 0.01 V in gives 11.5 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "1150",
+   "5"
+  ],
+  "expected": "With 1 turn on the primary and 1150 turns on the secondary, the ratio is 1:1150. 5 V in gives 5750 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "1150",
+   "12"
+  ],
+  "expected": "With 1 turn on the primary and 1150 turns on the secondary, the ratio is 1:1150. 12 V in gives 13800 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "1150",
+   "230"
+  ],
+  "expected": "With 1 turn on the primary and 1150 turns on the secondary, the ratio is 1:1150. 230 V in gives 264500 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "1150",
+   "10000"
+  ],
+  "expected": "With 1 turn on the primary and 1150 turns on the secondary, the ratio is 1:1150. 10000 V in gives 11500000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "7777",
+   "0.01"
+  ],
+  "expected": "With 1 turn on the primary and 7777 turns on the secondary, the ratio is 1:7777. 0.01 V in gives 77.77 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "7777",
+   "5"
+  ],
+  "expected": "With 1 turn on the primary and 7777 turns on the secondary, the ratio is 1:7777. 5 V in gives 38885 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "7777",
+   "12"
+  ],
+  "expected": "With 1 turn on the primary and 7777 turns on the secondary, the ratio is 1:7777. 12 V in gives 93324 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "7777",
+   "230"
+  ],
+  "expected": "With 1 turn on the primary and 7777 turns on the secondary, the ratio is 1:7777. 230 V in gives 1788710 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "7777",
+   "10000"
+  ],
+  "expected": "With 1 turn on the primary and 7777 turns on the secondary, the ratio is 1:7777. 10000 V in gives 77770000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "100000",
+   "0.01"
+  ],
+  "expected": "With 1 turn on the primary and 100000 turns on the secondary, the ratio is 1:100000. 0.01 V in gives 1000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "100000",
+   "5"
+  ],
+  "expected": "With 1 turn on the primary and 100000 turns on the secondary, the ratio is 1:100000. 5 V in gives 500000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "100000",
+   "12"
+  ],
+  "expected": "With 1 turn on the primary and 100000 turns on the secondary, the ratio is 1:100000. 12 V in gives 1200000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "100000",
+   "230"
+  ],
+  "expected": "With 1 turn on the primary and 100000 turns on the secondary, the ratio is 1:100000. 230 V in gives 23000000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1",
+   "100000",
+   "10000"
+  ],
+  "expected": "With 1 turn on the primary and 100000 turns on the secondary, the ratio is 1:100000. 10000 V in gives 1000000000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "1",
+   "0.01"
+  ],
+  "expected": "With 10 turns on the primary and 1 turn on the secondary, the ratio is 10:1. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "1",
+   "5"
+  ],
+  "expected": "With 10 turns on the primary and 1 turn on the secondary, the ratio is 10:1. 5 V in gives 0.5 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "1",
+   "12"
+  ],
+  "expected": "With 10 turns on the primary and 1 turn on the secondary, the ratio is 10:1. 12 V in gives 1.2 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "1",
+   "230"
+  ],
+  "expected": "With 10 turns on the primary and 1 turn on the secondary, the ratio is 10:1. 230 V in gives 23 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "1",
+   "10000"
+  ],
+  "expected": "With 10 turns on the primary and 1 turn on the secondary, the ratio is 10:1. 10000 V in gives 1000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "60",
+   "0.01"
+  ],
+  "expected": "With 10 turns on the primary and 60 turns on the secondary, the ratio is 1:6. 0.01 V in gives 0.06 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "60",
+   "5"
+  ],
+  "expected": "With 10 turns on the primary and 60 turns on the secondary, the ratio is 1:6. 5 V in gives 30 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "60",
+   "12"
+  ],
+  "expected": "With 10 turns on the primary and 60 turns on the secondary, the ratio is 1:6. 12 V in gives 72 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "60",
+   "230"
+  ],
+  "expected": "With 10 turns on the primary and 60 turns on the secondary, the ratio is 1:6. 230 V in gives 1380 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "60",
+   "10000"
+  ],
+  "expected": "With 10 turns on the primary and 60 turns on the secondary, the ratio is 1:6. 10000 V in gives 60000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "1150",
+   "0.01"
+  ],
+  "expected": "With 10 turns on the primary and 1150 turns on the secondary, the ratio is 1:115. 0.01 V in gives 1.15 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "1150",
+   "5"
+  ],
+  "expected": "With 10 turns on the primary and 1150 turns on the secondary, the ratio is 1:115. 5 V in gives 575 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "1150",
+   "12"
+  ],
+  "expected": "With 10 turns on the primary and 1150 turns on the secondary, the ratio is 1:115. 12 V in gives 1380 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "1150",
+   "230"
+  ],
+  "expected": "With 10 turns on the primary and 1150 turns on the secondary, the ratio is 1:115. 230 V in gives 26450 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "1150",
+   "10000"
+  ],
+  "expected": "With 10 turns on the primary and 1150 turns on the secondary, the ratio is 1:115. 10000 V in gives 1150000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "7777",
+   "0.01"
+  ],
+  "expected": "With 10 turns on the primary and 7777 turns on the secondary, the ratio is 10:7777. 0.01 V in gives 7.78 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "7777",
+   "5"
+  ],
+  "expected": "With 10 turns on the primary and 7777 turns on the secondary, the ratio is 10:7777. 5 V in gives 3888.5 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "7777",
+   "12"
+  ],
+  "expected": "With 10 turns on the primary and 7777 turns on the secondary, the ratio is 10:7777. 12 V in gives 9332.4 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "7777",
+   "230"
+  ],
+  "expected": "With 10 turns on the primary and 7777 turns on the secondary, the ratio is 10:7777. 230 V in gives 178871 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "7777",
+   "10000"
+  ],
+  "expected": "With 10 turns on the primary and 7777 turns on the secondary, the ratio is 10:7777. 10000 V in gives 7777000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "100000",
+   "0.01"
+  ],
+  "expected": "With 10 turns on the primary and 100000 turns on the secondary, the ratio is 1:10000. 0.01 V in gives 100 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "100000",
+   "5"
+  ],
+  "expected": "With 10 turns on the primary and 100000 turns on the secondary, the ratio is 1:10000. 5 V in gives 50000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "100000",
+   "12"
+  ],
+  "expected": "With 10 turns on the primary and 100000 turns on the secondary, the ratio is 1:10000. 12 V in gives 120000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "100000",
+   "230"
+  ],
+  "expected": "With 10 turns on the primary and 100000 turns on the secondary, the ratio is 1:10000. 230 V in gives 2300000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "10",
+   "100000",
+   "10000"
+  ],
+  "expected": "With 10 turns on the primary and 100000 turns on the secondary, the ratio is 1:10000. 10000 V in gives 100000000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1",
+   "0.01"
+  ],
+  "expected": "With 1150 turns on the primary and 1 turn on the secondary, the ratio is 1150:1. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1",
+   "5"
+  ],
+  "expected": "With 1150 turns on the primary and 1 turn on the secondary, the ratio is 1150:1. 5 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1",
+   "12"
+  ],
+  "expected": "With 1150 turns on the primary and 1 turn on the secondary, the ratio is 1150:1. 12 V in gives 0.01 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1",
+   "230"
+  ],
+  "expected": "With 1150 turns on the primary and 1 turn on the secondary, the ratio is 1150:1. 230 V in gives 0.2 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1",
+   "10000"
+  ],
+  "expected": "With 1150 turns on the primary and 1 turn on the secondary, the ratio is 1150:1. 10000 V in gives 8.7 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "60",
+   "0.01"
+  ],
+  "expected": "With 1150 turns on the primary and 60 turns on the secondary, the ratio is 115:6. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "60",
+   "5"
+  ],
+  "expected": "With 1150 turns on the primary and 60 turns on the secondary, the ratio is 115:6. 5 V in gives 0.26 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "60",
+   "12"
+  ],
+  "expected": "With 1150 turns on the primary and 60 turns on the secondary, the ratio is 115:6. 12 V in gives 0.63 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "60",
+   "230"
+  ],
+  "expected": "With 1150 turns on the primary and 60 turns on the secondary, the ratio is 115:6. 230 V in gives 12 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "60",
+   "10000"
+  ],
+  "expected": "With 1150 turns on the primary and 60 turns on the secondary, the ratio is 115:6. 10000 V in gives 521.74 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1150",
+   "0.01"
+  ],
+  "expected": "With 1150 turns on the primary and 1150 turns on the secondary, the ratio is 1:1. 0.01 V in gives 0.01 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1150",
+   "5"
+  ],
+  "expected": "With 1150 turns on the primary and 1150 turns on the secondary, the ratio is 1:1. 5 V in gives 5 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1150",
+   "12"
+  ],
+  "expected": "With 1150 turns on the primary and 1150 turns on the secondary, the ratio is 1:1. 12 V in gives 12 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1150",
+   "230"
+  ],
+  "expected": "With 1150 turns on the primary and 1150 turns on the secondary, the ratio is 1:1. 230 V in gives 230 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1150",
+   "10000"
+  ],
+  "expected": "With 1150 turns on the primary and 1150 turns on the secondary, the ratio is 1:1. 10000 V in gives 10000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "7777",
+   "0.01"
+  ],
+  "expected": "With 1150 turns on the primary and 7777 turns on the secondary, the ratio is 1150:7777. 0.01 V in gives 0.07 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "7777",
+   "5"
+  ],
+  "expected": "With 1150 turns on the primary and 7777 turns on the secondary, the ratio is 1150:7777. 5 V in gives 33.81 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "7777",
+   "12"
+  ],
+  "expected": "With 1150 turns on the primary and 7777 turns on the secondary, the ratio is 1150:7777. 12 V in gives 81.15 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "7777",
+   "230"
+  ],
+  "expected": "With 1150 turns on the primary and 7777 turns on the secondary, the ratio is 1150:7777. 230 V in gives 1555.4 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "7777",
+   "10000"
+  ],
+  "expected": "With 1150 turns on the primary and 7777 turns on the secondary, the ratio is 1150:7777. 10000 V in gives 67626.09 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "100000",
+   "0.01"
+  ],
+  "expected": "With 1150 turns on the primary and 100000 turns on the secondary, the ratio is 23:2000. 0.01 V in gives 0.87 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "100000",
+   "5"
+  ],
+  "expected": "With 1150 turns on the primary and 100000 turns on the secondary, the ratio is 23:2000. 5 V in gives 434.78 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "100000",
+   "12"
+  ],
+  "expected": "With 1150 turns on the primary and 100000 turns on the secondary, the ratio is 23:2000. 12 V in gives 1043.48 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "100000",
+   "230"
+  ],
+  "expected": "With 1150 turns on the primary and 100000 turns on the secondary, the ratio is 23:2000. 230 V in gives 20000 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "100000",
+   "10000"
+  ],
+  "expected": "With 1150 turns on the primary and 100000 turns on the secondary, the ratio is 23:2000. 10000 V in gives 869565.22 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "1",
+   "0.01"
+  ],
+  "expected": "With 99999 turns on the primary and 1 turn on the secondary, the ratio is 99999:1. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "1",
+   "5"
+  ],
+  "expected": "With 99999 turns on the primary and 1 turn on the secondary, the ratio is 99999:1. 5 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "1",
+   "12"
+  ],
+  "expected": "With 99999 turns on the primary and 1 turn on the secondary, the ratio is 99999:1. 12 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "1",
+   "230"
+  ],
+  "expected": "With 99999 turns on the primary and 1 turn on the secondary, the ratio is 99999:1. 230 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "1",
+   "10000"
+  ],
+  "expected": "With 99999 turns on the primary and 1 turn on the secondary, the ratio is 99999:1. 10000 V in gives 0.1 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "60",
+   "0.01"
+  ],
+  "expected": "With 99999 turns on the primary and 60 turns on the secondary, the ratio is 33333:20. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "60",
+   "5"
+  ],
+  "expected": "With 99999 turns on the primary and 60 turns on the secondary, the ratio is 33333:20. 5 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "60",
+   "12"
+  ],
+  "expected": "With 99999 turns on the primary and 60 turns on the secondary, the ratio is 33333:20. 12 V in gives 0.01 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "60",
+   "230"
+  ],
+  "expected": "With 99999 turns on the primary and 60 turns on the secondary, the ratio is 33333:20. 230 V in gives 0.14 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "60",
+   "10000"
+  ],
+  "expected": "With 99999 turns on the primary and 60 turns on the secondary, the ratio is 33333:20. 10000 V in gives 6 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "1150",
+   "0.01"
+  ],
+  "expected": "With 99999 turns on the primary and 1150 turns on the secondary, the ratio is 99999:1150. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "1150",
+   "5"
+  ],
+  "expected": "With 99999 turns on the primary and 1150 turns on the secondary, the ratio is 99999:1150. 5 V in gives 0.06 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "1150",
+   "12"
+  ],
+  "expected": "With 99999 turns on the primary and 1150 turns on the secondary, the ratio is 99999:1150. 12 V in gives 0.14 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "1150",
+   "230"
+  ],
+  "expected": "With 99999 turns on the primary and 1150 turns on the secondary, the ratio is 99999:1150. 230 V in gives 2.65 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "1150",
+   "10000"
+  ],
+  "expected": "With 99999 turns on the primary and 1150 turns on the secondary, the ratio is 99999:1150. 10000 V in gives 115 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "7777",
+   "0.01"
+  ],
+  "expected": "With 99999 turns on the primary and 7777 turns on the secondary, the ratio is 99999:7777. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "7777",
+   "5"
+  ],
+  "expected": "With 99999 turns on the primary and 7777 turns on the secondary, the ratio is 99999:7777. 5 V in gives 0.39 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "7777",
+   "12"
+  ],
+  "expected": "With 99999 turns on the primary and 7777 turns on the secondary, the ratio is 99999:7777. 12 V in gives 0.93 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "7777",
+   "230"
+  ],
+  "expected": "With 99999 turns on the primary and 7777 turns on the secondary, the ratio is 99999:7777. 230 V in gives 17.89 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "7777",
+   "10000"
+  ],
+  "expected": "With 99999 turns on the primary and 7777 turns on the secondary, the ratio is 99999:7777. 10000 V in gives 777.71 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "100000",
+   "0.01"
+  ],
+  "expected": "With 99999 turns on the primary and 100000 turns on the secondary, the ratio is 99999:100000. 0.01 V in gives 0.01 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "100000",
+   "5"
+  ],
+  "expected": "With 99999 turns on the primary and 100000 turns on the secondary, the ratio is 99999:100000. 5 V in gives 5 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "100000",
+   "12"
+  ],
+  "expected": "With 99999 turns on the primary and 100000 turns on the secondary, the ratio is 99999:100000. 12 V in gives 12 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "100000",
+   "230"
+  ],
+  "expected": "With 99999 turns on the primary and 100000 turns on the secondary, the ratio is 99999:100000. 230 V in gives 230 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "99999",
+   "100000",
+   "10000"
+  ],
+  "expected": "With 99999 turns on the primary and 100000 turns on the secondary, the ratio is 99999:100000. 10000 V in gives 10000.1 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "1",
+   "0.01"
+  ],
+  "expected": "With 100000 turns on the primary and 1 turn on the secondary, the ratio is 100000:1. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "1",
+   "5"
+  ],
+  "expected": "With 100000 turns on the primary and 1 turn on the secondary, the ratio is 100000:1. 5 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "1",
+   "12"
+  ],
+  "expected": "With 100000 turns on the primary and 1 turn on the secondary, the ratio is 100000:1. 12 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "1",
+   "230"
+  ],
+  "expected": "With 100000 turns on the primary and 1 turn on the secondary, the ratio is 100000:1. 230 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "1",
+   "10000"
+  ],
+  "expected": "With 100000 turns on the primary and 1 turn on the secondary, the ratio is 100000:1. 10000 V in gives 0.1 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "60",
+   "0.01"
+  ],
+  "expected": "With 100000 turns on the primary and 60 turns on the secondary, the ratio is 5000:3. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "60",
+   "5"
+  ],
+  "expected": "With 100000 turns on the primary and 60 turns on the secondary, the ratio is 5000:3. 5 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "60",
+   "12"
+  ],
+  "expected": "With 100000 turns on the primary and 60 turns on the secondary, the ratio is 5000:3. 12 V in gives 0.01 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "60",
+   "230"
+  ],
+  "expected": "With 100000 turns on the primary and 60 turns on the secondary, the ratio is 5000:3. 230 V in gives 0.14 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "60",
+   "10000"
+  ],
+  "expected": "With 100000 turns on the primary and 60 turns on the secondary, the ratio is 5000:3. 10000 V in gives 6 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "1150",
+   "0.01"
+  ],
+  "expected": "With 100000 turns on the primary and 1150 turns on the secondary, the ratio is 2000:23. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "1150",
+   "5"
+  ],
+  "expected": "With 100000 turns on the primary and 1150 turns on the secondary, the ratio is 2000:23. 5 V in gives 0.06 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "1150",
+   "12"
+  ],
+  "expected": "With 100000 turns on the primary and 1150 turns on the secondary, the ratio is 2000:23. 12 V in gives 0.14 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "1150",
+   "230"
+  ],
+  "expected": "With 100000 turns on the primary and 1150 turns on the secondary, the ratio is 2000:23. 230 V in gives 2.65 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "1150",
+   "10000"
+  ],
+  "expected": "With 100000 turns on the primary and 1150 turns on the secondary, the ratio is 2000:23. 10000 V in gives 115 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "7777",
+   "0.01"
+  ],
+  "expected": "With 100000 turns on the primary and 7777 turns on the secondary, the ratio is 100000:7777. 0.01 V in gives 0 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "7777",
+   "5"
+  ],
+  "expected": "With 100000 turns on the primary and 7777 turns on the secondary, the ratio is 100000:7777. 5 V in gives 0.39 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "7777",
+   "12"
+  ],
+  "expected": "With 100000 turns on the primary and 7777 turns on the secondary, the ratio is 100000:7777. 12 V in gives 0.93 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "7777",
+   "230"
+  ],
+  "expected": "With 100000 turns on the primary and 7777 turns on the secondary, the ratio is 100000:7777. 230 V in gives 17.89 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "7777",
+   "10000"
+  ],
+  "expected": "With 100000 turns on the primary and 7777 turns on the secondary, the ratio is 100000:7777. 10000 V in gives 777.7 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "100000",
+   "0.01"
+  ],
+  "expected": "With 100000 turns on the primary and 100000 turns on the secondary, the ratio is 1:1. 0.01 V in gives 0.01 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "100000",
+   "5"
+  ],
+  "expected": "With 100000 turns on the primary and 100000 turns on the secondary, the ratio is 1:1. 5 V in gives 5 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "100000",
+   "12"
+  ],
+  "expected": "With 100000 turns on the primary and 100000 turns on the secondary, the ratio is 1:1. 12 V in gives 12 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "100000",
+   "230"
+  ],
+  "expected": "With 100000 turns on the primary and 100000 turns on the secondary, the ratio is 1:1. 230 V in gives 230 V out."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100000",
+   "100000",
+   "10000"
+  ],
+  "expected": "With 100000 turns on the primary and 100000 turns on the secondary, the ratio is 1:1. 10000 V in gives 10000 V out."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   "0.01"
+  ],
+  "expected": "A 0.01 A draw on the 12 V secondary asks 0 A from the 230 V primary. That is 0.12 W out and 0.12 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1",
+   "100000",
+   "0.01",
+   "0.01"
+  ],
+  "expected": "A 0.01 A draw on the 1000 V secondary asks 1000 A from the 0.01 V primary. That is 10 W out and 10 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   "0.5"
+  ],
+  "expected": "A 0.5 A draw on the 12 V secondary asks 0.03 A from the 230 V primary. That is 6 W out and 6 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1",
+   "100000",
+   "0.01",
+   "0.5"
+  ],
+  "expected": "A 0.5 A draw on the 1000 V secondary asks 50000 A from the 0.01 V primary. That is 500 W out and 500 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   "2"
+  ],
+  "expected": "A 2 A draw on the 12 V secondary asks 0.1 A from the 230 V primary. That is 24 W out and 24 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1",
+   "100000",
+   "0.01",
+   "2"
+  ],
+  "expected": "A 2 A draw on the 1000 V secondary asks 200000 A from the 0.01 V primary. That is 2000 W out and 2000 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   "1.37"
+  ],
+  "expected": "A 1.37 A draw on the 12 V secondary asks 0.07 A from the 230 V primary. That is 16.44 W out and 16.44 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1",
+   "100000",
+   "0.01",
+   "1.37"
+  ],
+  "expected": "A 1.37 A draw on the 1000 V secondary asks 137000 A from the 0.01 V primary. That is 1370 W out and 1370 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   "999.99"
+  ],
+  "expected": "A 999.99 A draw on the 12 V secondary asks 52.17 A from the 230 V primary. That is 11999.88 W out and 11999.88 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1",
+   "100000",
+   "0.01",
+   "999.99"
+  ],
+  "expected": "A 999.99 A draw on the 1000 V secondary asks 99999000 A from the 0.01 V primary. That is 999990 W out and 999990 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   "1000"
+  ],
+  "expected": "A 1000 A draw on the 12 V secondary asks 52.17 A from the 230 V primary. That is 12000 W out and 12000 W in."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1",
+   "100000",
+   "0.01",
+   "1000"
+  ],
+  "expected": "A 1000 A draw on the 1000 V secondary asks 100000000 A from the 0.01 V primary. That is 1000000 W out and 1000000 W in."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "230",
+   "0.01"
+  ],
+  "expected": "For 0.01 V out from 230 V in with 1150 turns on the primary, wind 1 turn. That actually gives 0.2 V, 0.19 V high."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1",
+   "0.01",
+   "0.01"
+  ],
+  "expected": "For 0.01 V out from 0.01 V in with 1 turn on the primary, wind 1 turn. That lands exactly on 0.01 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "100000",
+   "10000",
+   "0.01"
+  ],
+  "expected": "For 0.01 V out from 10000 V in with 100000 turns on the primary, wind 1 turn. That actually gives 0.1 V, 0.09 V high."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "230",
+   "6.3"
+  ],
+  "expected": "For 6.3 V out from 230 V in with 1150 turns on the primary, wind 32 turns. That actually gives 6.4 V, 0.1 V high."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1",
+   "0.01",
+   "6.3"
+  ],
+  "expected": "For 6.3 V out from 0.01 V in with 1 turn on the primary, wind 630 turns. That lands exactly on 6.3 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "100000",
+   "10000",
+   "6.3"
+  ],
+  "expected": "For 6.3 V out from 10000 V in with 100000 turns on the primary, wind 63 turns. That lands exactly on 6.3 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "230",
+   "12"
+  ],
+  "expected": "For 12 V out from 230 V in with 1150 turns on the primary, wind 60 turns. That lands exactly on 12 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1",
+   "0.01",
+   "12"
+  ],
+  "expected": "For 12 V out from 0.01 V in with 1 turn on the primary, wind 1200 turns. That lands exactly on 12 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "100000",
+   "10000",
+   "12"
+  ],
+  "expected": "For 12 V out from 10000 V in with 100000 turns on the primary, wind 120 turns. That lands exactly on 12 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "230",
+   "230"
+  ],
+  "expected": "For 230 V out from 230 V in with 1150 turns on the primary, wind 1150 turns. That lands exactly on 230 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1",
+   "0.01",
+   "230"
+  ],
+  "expected": "For 230 V out from 0.01 V in with 1 turn on the primary, wind 23000 turns. That lands exactly on 230 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "100000",
+   "10000",
+   "230"
+  ],
+  "expected": "For 230 V out from 10000 V in with 100000 turns on the primary, wind 2300 turns. That lands exactly on 230 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "230",
+   "10000"
+  ],
+  "expected": "For 10000 V out from 230 V in with 1150 turns on the primary, wind 50000 turns. That lands exactly on 10000 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1",
+   "0.01",
+   "10000"
+  ],
+  "expected": "For 10000 V out from 0.01 V in with 1 turn on the primary, wind 1000000 turns. That lands exactly on 10000 V."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "100000",
+   "10000",
+   "10000"
+  ],
+  "expected": "For 10000 V out from 10000 V in with 100000 turns on the primary, wind 100000 turns. That lands exactly on 10000 V."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "0",
+   "60",
+   "230"
+  ],
+  "expected": "ERR:the primary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "0",
+   "230"
+  ],
+  "expected": "ERR:the secondary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "60",
+   "0"
+  ],
+  "expected": "ERR:the voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   "0"
+  ],
+  "expected": "ERR:the current must be from 0.01 to 1000 A with at most two decimal places"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "230",
+   "0"
+  ],
+  "expected": "ERR:the target voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "0",
+   "230",
+   "12"
+  ],
+  "expected": "ERR:the primary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "0",
+   "12"
+  ],
+  "expected": "ERR:the voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "100001",
+   "60",
+   "230"
+  ],
+  "expected": "ERR:the primary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "100001",
+   "230"
+  ],
+  "expected": "ERR:the secondary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "60",
+   "100001"
+  ],
+  "expected": "ERR:the voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   "100001"
+  ],
+  "expected": "ERR:the current must be from 0.01 to 1000 A with at most two decimal places"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "230",
+   "100001"
+  ],
+  "expected": "ERR:the target voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "100001",
+   "230",
+   "12"
+  ],
+  "expected": "ERR:the primary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "100001",
+   "12"
+  ],
+  "expected": "ERR:the voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1.5",
+   "60",
+   "230"
+  ],
+  "expected": "ERR:the primary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "1.5",
+   "230"
+  ],
+  "expected": "ERR:the secondary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "60",
+   "1.5"
+  ],
+  "expected": "With 1150 turns on the primary and 60 turns on the secondary, the ratio is 115:6. 1.5 V in gives 0.08 V out."
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   "1.5"
+  ],
+  "expected": "A 1.5 A draw on the 12 V secondary asks 0.08 A from the 230 V primary. That is 18 W out and 18 W in."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "230",
+   "1.5"
+  ],
+  "expected": "For 1.5 V out from 230 V in with 1150 turns on the primary, wind 8 turns. That actually gives 1.6 V, 0.1 V high."
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1.5",
+   "230",
+   "12"
+  ],
+  "expected": "ERR:the primary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "1.5",
+   "12"
+  ],
+  "expected": "For 12 V out from 1.5 V in with 1150 turns on the primary, wind 9200 turns. That lands exactly on 12 V."
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "x",
+   "60",
+   "230"
+  ],
+  "expected": "ERR:the primary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "x",
+   "230"
+  ],
+  "expected": "ERR:the secondary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "60",
+   "x"
+  ],
+  "expected": "ERR:the voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   "x"
+  ],
+  "expected": "ERR:the current must be from 0.01 to 1000 A with at most two decimal places"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "230",
+   "x"
+  ],
+  "expected": "ERR:the target voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "x",
+   "230",
+   "12"
+  ],
+  "expected": "ERR:the primary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "x",
+   "12"
+  ],
+  "expected": "ERR:the voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "",
+   "60",
+   "230"
+  ],
+  "expected": "ERR:the primary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "",
+   "230"
+  ],
+  "expected": "ERR:the secondary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "ratioTruth",
+  "args": [
+   "1150",
+   "60",
+   ""
+  ],
+  "expected": "ERR:the voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "currentTruth",
+  "args": [
+   "1150",
+   "60",
+   "230",
+   ""
+  ],
+  "expected": "ERR:the current must be from 0.01 to 1000 A with at most two decimal places"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "230",
+   ""
+  ],
+  "expected": "ERR:the target voltage must be from 0.01 to 10000 V with at most two decimal places"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "",
+   "230",
+   "12"
+  ],
+  "expected": "ERR:the primary turns must be a whole number from 1 to 100000"
+ },
+ {
+  "fn": "turnsTruth",
+  "args": [
+   "1150",
+   "",
+   "12"
+  ],
+  "expected": "ERR:the voltage must be from 0.01 to 10000 V with at most two decimal places"
+ }
+]
